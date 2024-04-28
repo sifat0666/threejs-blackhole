@@ -218,6 +218,7 @@ const tick = () => {
 
   // Update controls
   controls.update();
+  points.rotation.y += 0.0005;
 
   // Render
   renderer.render(scene, camera);
